@@ -5,11 +5,12 @@ import time
 
 def main():
 
-    start_time = time.time()
+    st = time.time()
     for i in range(10):
         print(i)
 
-    print('time elapsed: {} sec'.format(time.time() - start_time))
+    et = time.time()
+    print('time elapsed: {} sec'.format(et - st))
 
 
 if __name__ == '__main__':
