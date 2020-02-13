@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
 
+import time
+
 
 def main():
 
+    start_time = time.time()
     for i in range(10):
         print(i)
+
+    print('time elapsed: {} sec'.format(time.time() - start_time))
 
 
 if __name__ == '__main__':
